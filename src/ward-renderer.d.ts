@@ -1,0 +1,1 @@
+export function createWard(canvas:HTMLCanvasElement,read:()=>{position:{x:number;y:number};target:{x:number;y:number};low:boolean;reduced:boolean},onFailure:(message:string)=>void):{zoomIn:()=>void;zoomOut:()=>void;resetCamera:()=>void;dispose:()=>void};
